@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: lightcoral;
+    padding-top: 60px;
+    -webkit-text-stroke-width: .3px;
+    background-color: transparent;
+    display: block;
+    transition: 0.3s;
+  }
+ 
+  /* When you mouse over the navigation links, change their color */
+  .sidebar a:hover {
+    color: pink;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color:transparent;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    position: fixed;
+  }
+  /* red X that on click closes sidebar */
+  .redx {
+    border-radius:50%;
+  }
+ /* image used to open sidebar */
+  .imgicon {
+    border-radius: 50%;
+  }
+  
+  .openbtn:hover {
+    background-color: lightpink;
+    border-radius: 50%;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when 
+  you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of
+   the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 15px;}
+  }
+  smalldonut {
+    border-radius: 50%;
+  }
+  a{
+    color:black;
+    text-decoration: none;
+  }
+
+  a:active{
+    color: black
+  }
+
+  a:hover{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: lightblue;
+  }
+
+
+  .body {
+    font-family: 'Happy Monkey', cursive;
+    width: 609px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  h1 {
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 0;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    margin-top: 40px;
+    width: 500px;
+    font-size: 40px;
+    border-radius: 5px;
+  }
+
+  
+  .donutButton {
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background: lightblue;
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+    height: 65px;
+    width: 125px;
+  }
+
+  .buyAutoButton {
+    
+    background: lightblue;
+    color: rgba(0, 0, 0, 0.651);
+    margin: auto;
+    border-radius: 5px;
+    border-style: dashed;
+  }
+
+  .buyclickMultiplier {
+    
+    background: lightblue;
+    color: rgba(0, 0, 0, 0.651);
+    margin: auto;
+    border-radius: 5px;
+    border-style: dashed;
+  }
+
+  .resetButton {
+    
+    background: lightbluel;
+    color: rgba(0, 0, 0, 0.651);
+    margin: auto;
+    border-radius: 5px;
+  }
+
+  .donutButton:active, .buyAutoButton:active, .buyclickMultiplier:active, .resetButton:active {
+    background: rgba(212, 31, 31, 0.664);
+    color: rgba(255, 255, 255, 0.61);
+    margin: auto;
+    border-radius: 5px;
+    
+  }
+
+  .donutButton:hover, .buyAutoButton:hover, .buyclickMultiplier:hover, .resetButton:hover {
+    cursor:pointer;
+  }
+
+  .donutButton:disabled, .buyAutoButton:disabled, .buyclickMultiplier:disabled, .resetButton:disabled {
+    background: rgba(154, 151, 151, 0.966);
+    color: rgba(228, 222, 222, 0.61);
+    margin: auto;
+    border-radius: 5px;
+    cursor: unset;
+  }
+
+  footer {
+    margin: auto;
+    text-align: center;
+    color:black;
+  }
+
+  #priceForAuto, #priceForMultiplier {  
+    color: black;
+    width: 200px;
+    text-align: center;
+    padding-left: 204px; 
+  }
+
+  .background{
+    background-size: 100%;
+    height: 975px;
+    background-repeat: no-repeat;
+  }
+
+  
+  
+  section {
+    display: flex;
+    margin: auto;
+  }
+  #priceForAuto, #priceForMultiplier {
+    text-align: center;
+  }
+
+  .resetButton {
+  display: flex;
+  margin: auto;
+  }   
+
+  ::-webkit-scrollbar {
+  width: 10px
+  }
+
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  background: transparent;
+ }
+
+  ::-webkit-scrollbar-thumb:hover {
+  background: #ff81d7;
+ }
+/* flex boxes on home page*/
+  .flex-column {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .column-item {
+    flex: 1 0 61%;  /* flex-grow, flex-shrink, flex-basis */
+    margin: 2px;
+    background-color: lightblue;
+    opacity: 90%;
+    text-emphasis-style: bold;
+  }
+  
+  .column-item:nth-of-type(1),
+  .column-item:nth-of-type(2),
+  .column-item:nth-of-type(3),
+  .column-item:nth-of-type(4) {
+    flex-basis: 40%;
+  }
